@@ -1,0 +1,160 @@
+
+body {
+	color:#000000;
+	background-color:#FFFFFF;
+	margin:0;
+}
+
+#container {
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	background-color:transparent;
+	position:relative;
+	height:100%;
+	}
+
+.heading {
+	
+	color:#4D4D4D;
+	font-family:helvetica;
+	font-size:25px;
+	text-decoration:none;
+	
+}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	margin-left: -380px;
+}
+
+.nav {
+	position: absolute;
+	top: 68px;
+	margin-left: 270px;		
+}
+
+.nav a {
+	color:#858585;
+	font-family:helvetica;
+	font-size:17px;
+	text-decoration:none;
+	
+}
+
+.nav li a:hover {
+	color:#597BBC;
+}
+
+.nav ul {
+	margin: 0px;
+	font-family: helvetica;
+	font-style: normal;
+	font-weight: 400;
+	
+}
+
+.nav li {
+	margin:0px 0px 0px 20px;
+	list-style-type:none;
+	display:inline;
+}
+
+.band {
+	-webkit-box-shadow: 7px 7px 7px gray;
+    box-shadow: 7px 7px 7px gray;
+}
+
+.content {
+	width: 900px;
+	
+}
+
+.content input {
+	position: absolute;
+	left: 300px;
+	margin-button: 5px;
+	padding:1px;
+}
+
+#input2 {
+	position: absolute;
+	right: 305px;
+	top:298px;
+}
+
+#input3 {
+	position: absolute;
+	right: 305px;
+	top:318px;
+}
+
+.content label {
+	position: absolute;
+	right: 620px;
+	font-family: helvetica;
+	color:#4D4D4D;
+}
+
+
+#button {
+	position: absolute;
+	left: 620px;
+	font-family: helvetica;
+	border:none;
+	background-color:#949494;
+	color:#FFFFFF;
+	width: 100px;
+	height: 21px;
+	
+}
+
+#button:hover {
+	background:#597BBC;
+}
+
+p {
+	font-family: helvetica;
+	color:#4D4D4D;
+}
+
+
+table.gridtable {
+	font-family: helvetica;
+	font-size:15px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	text-align: left;
+	-webkit-box-shadow: 7px 7px 7px gray;
+    box-shadow: 7px 7px 7px gray;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+
+#footer {
+	width: 900px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align:center;
+}
